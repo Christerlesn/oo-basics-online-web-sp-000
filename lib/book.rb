@@ -16,7 +16,7 @@ def author
   @author
 end
 
-attr_accessor :genre
+
 
 
 
