@@ -4,15 +4,15 @@ def initialize(title)
   @title = title
 end
 
-def title
+def title #reader aka getter method
   @title
 end
 
-def author=(person_name)
+def author=(person_name) #writer aka setter method
   @author = person_name
 end
 
-attr_accessor :author, :genre
+attr_accessor :genre
 
 
 
