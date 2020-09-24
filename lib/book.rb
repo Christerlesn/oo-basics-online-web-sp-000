@@ -12,6 +12,10 @@ def author=(person_name) #writer aka setter method
   @author = person_name
 end
 
+def author
+  @author
+end
+
 attr_accessor :genre
 
 
