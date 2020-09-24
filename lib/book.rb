@@ -4,6 +4,16 @@ def initialize(title)
   @title = title
 end
 
-attr_accessor :title, :author, :genre
+def title
+  @title
+end
+
+def author=(person_name)
+  @author = person_name
+end
+
+attr_accessor :author, :genre
+
+
 
 end
