@@ -7,4 +7,3 @@ end
 attr_accessor :title, :author, :page :genre
 
 end
-
